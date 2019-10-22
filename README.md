@@ -17,7 +17,7 @@ Contains a list of all my coding & web application accomplishments
 ## Contact
 Is a form one can fill out to contact me if needed 
 
-## Coding languages Used
+## Coding Languages Used
 * HTML
 * CSS
 
