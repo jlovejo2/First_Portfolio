@@ -5,7 +5,7 @@ This Porfolio is being created as homework 1 assignment in my coding bootcamp wi
 * [About-me](#About-me)
 * [Gallery](#galleries)
 * [Contact](#contact)
-* [Coding Languages Used](#coding languages used)
+* [Coding Languages Used](#coding-languages-used)
 * [Technologies](#technologies)
 
 ## About me
@@ -17,7 +17,7 @@ Contains a list of all my coding & web application accomplishments
 ## Contact
 Is a form one can fill out to contact me if needed 
 
-## Coding languages Used
+## Coding Languages Used
 * HTML
 * CSS
 
