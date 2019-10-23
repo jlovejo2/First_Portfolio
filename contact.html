@@ -8,24 +8,34 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <h1>James Lovejoy</h1>
-    <a href="index.html">About Me</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="contact.html">Contact</a>
+    <header>
+        <div class="name">
+            <h2>James Lovejoy</h2>
+        </div>
+        <nav>
+            <a class="menu" href="portfolio.html">Portfolio</a>
+            <a class="menu" href="contact.html">Contact</a>
+            <a class="menu" href="index.html">About Me</a>
+        </nav>
+    </header>
 
-    <div>
+    <section class="main_content_background">
+        
         <h2>Contact</h2>
+
         <form>
             Name:<br>
-            <input type="text" name="Name"><br>
+            <input type="text" name="Name" size="40"><br>
             Email:<br>
-            <input type="text" name="email"><br>
+            <input type="text" name="email" size="40"><br>
             Message: <br>
-            <input type="text" name="Message">
+            <input type="text" name="Message" size="200">
         </form>
-    </div>
-    
-    <div>border</div>
-    <div class="copyright">Copyright&copy;</div>
+    </section>
+
+    <footer>
+        <div class="footer_border">border</div>
+        <div class="copyright">Copyright&copy;</div>
+    </footer>
 </body>
 </html>
