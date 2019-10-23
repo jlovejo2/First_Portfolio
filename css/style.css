@@ -1,0 +1,123 @@
+body {
+    background-image: url(../images/IMG_9209.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-color: gray:*/
+    height: 100%;
+    width: 100%;
+}
+
+.name {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    padding: 5px;
+    height: 80%;
+    width: 190px;
+    /*float: left;*/
+    position: absolute;
+    top: 0px;
+    left: 20%;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 4px solid black;
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.menu {
+    color: #777777;
+    font-family: 'Arial', 'Helvetiv Neue', Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    height: 40%;
+    position: relative;
+    Float: right;
+    right: 20%;
+    top: 10%;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+    float: left;
+    padding: 10px;
+}
+
+p {
+    position: relative;
+    top: 20px;
+}
+
+#about_me {
+    border-bottom: solid black 3px;
+    margin: 20px;
+    padding: 10px;
+}
+
+/*#main_content {
+}*/
+
+.main_content_background {
+    background-color: #ffffff;
+    height: 500px;
+    width: 60%;
+    position: relative;
+    top: 100px;
+    left: 20%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 10%;
+    width: 100%;
+    
+}
+
+.footer_border {
+    background-color: #4aaaa5;
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
+
+.copyright {
+    background-color: darkslategray;
+    text-align: center;
+    vertical-align: bottom;
+    height: 90%;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+input {
+    margin: 5px;
+}
+
+
+/*h2 {
+    background-color: #ffffff;
+    border: black solid 2px;
+    width: 940px;
+    padding: 10px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}*/
+/*
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }*/
