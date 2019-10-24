@@ -9,33 +9,32 @@
 </head>
 <body>
     <header>
-
         <h2 id="name">James Lovejoy</h2>
-
         <nav>
-            <a class="menu" href="portfolio.html">Portfolio</a>
-            <a class="menu" href="contact.html">Contact</a>
-            <a class="menu" href="index.html">About Me</a>
+            <ul>
+                <li><a class="nav_bar" href="portfolio.html">Portfolio</a></li>
+                <li><a class="nav_bar" href="contact.html">Contact</a></li>
+                <li><a class="nav_bar" href="index.html">About Me</a></li>
+            </ul>    
         </nav>
     </header>
-
-    <section class="main_content_background">
-        
-        <h2>Contact</h2>
-
-        <form>
-            Name:<br>
-            <input type="text" name="Name" size="40"><br>
-            Email:<br>
-            <input type="text" name="email" size="40"><br>
-            Message: <br>
-            <textarea name="message" style="width:90%; height: 50%;">
-        </form>
+    <section id="inner_area">
+        <section id="about-me_content_background">
+            <h2>Contact</h2>
+            <form action="assets/" method="GET" id="contactform">
+                Name:<br>
+                <input type="text" name="Name" size="40" placeholder="Please write your name"><br>
+                Email:<br>
+                <input type="text" name="email" size="40" placeholder="Please write your preferred email"><br>
+                Message: <br>
+                <textarea name="message" style="width:95%;" rows="10" placeholder="Please write a short message explaining why you are contacting me."></textarea>
+            </form>
+            
+            <button type="submit" form="contactform" value="submit">submit</button>
+        </section>
     </section>
-
     <footer>
-        <div class="footer_border">border</div>
-        <div class="copyright">Copyright&copy;</div>
+        Copyright&copy;
     </footer>
 </body>
 </html>
