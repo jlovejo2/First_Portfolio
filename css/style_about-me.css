@@ -1,0 +1,23 @@
+#me {
+    width: 20%;
+    height: 20%;
+    float: left;
+    padding: 10px;
+}
+
+p {
+    top: 20px;
+    padding: 10px;
+    font-family: cursive;
+    font-weight: 200;
+}
+
+#about-me_content_background {
+    background-color: rgba(16, 163, 23, 0.685);
+    height: 60%;
+    width: 60%;
+    margin: 0;
+    position: relative;
+    top: 5%;
+    left: 20%;
+}
