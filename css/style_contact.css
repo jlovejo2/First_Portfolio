@@ -1,0 +1,28 @@
+#contact_content_background {
+    background-color: rgba(100, 100, 100, .8);
+    height: 40%;
+    width: 40%;
+    margin: 0;
+    position: relative;
+    top: 5%;
+    left: 30%;
+}
+
+form {
+    padding: 10px;
+    position: absolute;
+    left: 5%;
+    width: 90%;
+}
+
+button {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
+button:hover::after {
+    content: url(../images/owl.jpeg);
+    content: click me to send away ....;
+    display: block;
+}
