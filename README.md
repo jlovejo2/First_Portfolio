@@ -30,10 +30,10 @@ This project was created with:
 
 ## Helpful Hints
 This project has 7 total files of code:
-*index.html - html code for about-me page.
-*contact.html - html code for contact form page.
-*portfolio.html - html code for portfolio page.
-*style.css - css code for styling that is consistent across all three pages.
-*style_about-me.css - css code specific to about-me page.
-*style_contact.css - css code specific to contact page.
-style_portfolio.css - css code specific to portfolio page.
+* index.html - html code for about-me page.
+* contact.html - html code for contact form page.
+* portfolio.html - html code for portfolio page.
+* style.css - css code for styling that is consistent across all three pages.
+* style_about-me.css - css code specific to about-me page.
+* style_contact.css - css code specific to contact page.
+* style_portfolio.css - css code specific to portfolio page.
